@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BA258A8924A60F8A007A9CFA /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA258A8824A60F8A007A9CFA /* main.cpp */; };
 		BA258AAC24A61027007A9CFA /* stack.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA258AAB24A61027007A9CFA /* stack.cpp */; };
 		BA258AB724A6103F007A9CFA /* queue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA258AB624A6103F007A9CFA /* queue.cpp */; };
 		BA258AD224A61180007A9CFA /* set.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA258AD124A61180007A9CFA /* set.cpp */; };
@@ -15,15 +14,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		BA258A8324A60F8A007A9CFA /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 1;
-		};
 		BA258AA724A61027007A9CFA /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -63,26 +53,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BA258A8524A60F8A007A9CFA /* weeks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = weeks; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA258A8824A60F8A007A9CFA /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BA258AA924A61027007A9CFA /* week1.1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = week1.1; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA258AAB24A61027007A9CFA /* stack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stack.cpp; sourceTree = "<group>"; };
 		BA258AB424A6103F007A9CFA /* week1.2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = week1.2; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA258AB624A6103F007A9CFA /* queue.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = queue.cpp; sourceTree = "<group>"; };
 		BA258ABF24A61047007A9CFA /* week1.3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = week1.3; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA258ACA24A61052007A9CFA /* week1.4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = week1.4; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA258ACA24A61052007A9CFA /* week1.4数字盒子 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "week1.4数字盒子"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA258AD124A61180007A9CFA /* set.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = set.cpp; path = "week1.4数字盒子/set.cpp"; sourceTree = SOURCE_ROOT; };
 		BA258AD324A6118E007A9CFA /* tree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tree.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BA258A8224A60F8A007A9CFA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BA258AA624A61027007A9CFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -117,33 +98,23 @@
 		BA258A7C24A60F8A007A9CFA = {
 			isa = PBXGroup;
 			children = (
-				BA258A8724A60F8A007A9CFA /* weeks */,
+				BA258A8624A60F8A007A9CFA /* Products */,
 				BA258AAA24A61027007A9CFA /* week1.1 */,
 				BA258AB524A6103F007A9CFA /* week1.2 */,
 				BA258AC024A61047007A9CFA /* week1.3 */,
 				BA258ACB24A61052007A9CFA /* week1.4数字盒子 */,
-				BA258A8624A60F8A007A9CFA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
 		BA258A8624A60F8A007A9CFA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BA258A8524A60F8A007A9CFA /* weeks */,
 				BA258AA924A61027007A9CFA /* week1.1 */,
 				BA258AB424A6103F007A9CFA /* week1.2 */,
 				BA258ABF24A61047007A9CFA /* week1.3 */,
-				BA258ACA24A61052007A9CFA /* week1.4 */,
+				BA258ACA24A61052007A9CFA /* week1.4数字盒子 */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		BA258A8724A60F8A007A9CFA /* weeks */ = {
-			isa = PBXGroup;
-			children = (
-				BA258A8824A60F8A007A9CFA /* main.cpp */,
-			);
-			path = weeks;
 			sourceTree = "<group>";
 		};
 		BA258AAA24A61027007A9CFA /* week1.1 */ = {
@@ -181,23 +152,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BA258A8424A60F8A007A9CFA /* weeks */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA258A8C24A60F8A007A9CFA /* Build configuration list for PBXNativeTarget "weeks" */;
-			buildPhases = (
-				BA258A8124A60F8A007A9CFA /* Sources */,
-				BA258A8224A60F8A007A9CFA /* Frameworks */,
-				BA258A8324A60F8A007A9CFA /* CopyFiles */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = weeks;
-			productName = weeks;
-			productReference = BA258A8524A60F8A007A9CFA /* weeks */;
-			productType = "com.apple.product-type.tool";
-		};
 		BA258AA824A61027007A9CFA /* week1.1 */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BA258AAD24A61027007A9CFA /* Build configuration list for PBXNativeTarget "week1.1" */;
@@ -249,9 +203,9 @@
 			productReference = BA258ABF24A61047007A9CFA /* week1.3 */;
 			productType = "com.apple.product-type.tool";
 		};
-		BA258AC924A61052007A9CFA /* week1.4 */ = {
+		BA258AC924A61052007A9CFA /* week1.4数字盒子 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA258ACE24A61052007A9CFA /* Build configuration list for PBXNativeTarget "week1.4" */;
+			buildConfigurationList = BA258ACE24A61052007A9CFA /* Build configuration list for PBXNativeTarget "week1.4数字盒子" */;
 			buildPhases = (
 				BA258AC624A61052007A9CFA /* Sources */,
 				BA258AC724A61052007A9CFA /* Frameworks */,
@@ -261,9 +215,9 @@
 			);
 			dependencies = (
 			);
-			name = week1.4;
+			name = "week1.4数字盒子";
 			productName = week1.4;
-			productReference = BA258ACA24A61052007A9CFA /* week1.4 */;
+			productReference = BA258ACA24A61052007A9CFA /* week1.4数字盒子 */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -275,9 +229,6 @@
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = Henry;
 				TargetAttributes = {
-					BA258A8424A60F8A007A9CFA = {
-						CreatedOnToolsVersion = 11.5;
-					};
 					BA258AA824A61027007A9CFA = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -305,24 +256,15 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BA258A8424A60F8A007A9CFA /* weeks */,
 				BA258AA824A61027007A9CFA /* week1.1 */,
 				BA258AB324A6103F007A9CFA /* week1.2 */,
 				BA258ABE24A61047007A9CFA /* week1.3 */,
-				BA258AC924A61052007A9CFA /* week1.4 */,
+				BA258AC924A61052007A9CFA /* week1.4数字盒子 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		BA258A8124A60F8A007A9CFA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA258A8924A60F8A007A9CFA /* main.cpp in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		BA258AA524A61027007A9CFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -467,26 +409,6 @@
 			};
 			name = Release;
 		};
-		BA258A8D24A60F8A007A9CFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UCV2M63J4K;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		BA258A8E24A60F8A007A9CFA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UCV2M63J4K;
-				ENABLE_HARDENED_RUNTIME = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 		BA258AAE24A61027007A9CFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -579,15 +501,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA258A8C24A60F8A007A9CFA /* Build configuration list for PBXNativeTarget "weeks" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA258A8D24A60F8A007A9CFA /* Debug */,
-				BA258A8E24A60F8A007A9CFA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		BA258AAD24A61027007A9CFA /* Build configuration list for PBXNativeTarget "week1.1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -615,7 +528,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BA258ACE24A61052007A9CFA /* Build configuration list for PBXNativeTarget "week1.4" */ = {
+		BA258ACE24A61052007A9CFA /* Build configuration list for PBXNativeTarget "week1.4数字盒子" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BA258ACF24A61052007A9CFA /* Debug */,
