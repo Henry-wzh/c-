@@ -28,11 +28,12 @@ bool check(int op, ll x) {
         break;
     }
     if(op == 1){
-        if(ptr == table[h].end()){  //第二个空格
+        if(ptr == table[h].end())
+        {  //第二个空格
             table[h].push_back(x); //第三个空格
-        return 1;
-    }
-    return 0;
+            return 1;
+            }
+        return 0;
     }else {
         if(ptr != table[h].end()){  //第四个空格
         *ptr = table[h].back();
