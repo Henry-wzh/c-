@@ -15,6 +15,10 @@
 		BA5270B124A7464900E23535 /* data_type.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA5270AF24A7464900E23535 /* data_type.cpp */; };
 		BA5270B424A75B8A00E23535 /* func.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA5270B224A75B8A00E23535 /* func.cpp */; };
 		BA5270B724A7754600E23535 /* time.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA5270B524A7754600E23535 /* time.cpp */; };
+		BA5270BF24A7824E00E23535 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA5270BE24A7824E00E23535 /* main.cpp */; };
+		BA5270CA24A791DC00E23535 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA5270C924A791DC00E23535 /* main.cpp */; };
+		BA5270D524A791EE00E23535 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA5270D424A791EE00E23535 /* main.cpp */; };
+		BA5270E024A791FE00E23535 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BA5270DF24A791FE00E23535 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,6 +67,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		BA5270BA24A7824D00E23535 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BA5270C524A791DC00E23535 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BA5270D024A791EE00E23535 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BA5270DB24A791FE00E23535 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +122,14 @@
 		BA5270B324A75B8A00E23535 /* func.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = func.hpp; sourceTree = "<group>"; };
 		BA5270B524A7754600E23535 /* time.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = time.cpp; sourceTree = "<group>"; };
 		BA5270B624A7754600E23535 /* time.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = time.hpp; sourceTree = "<group>"; };
+		BA5270BC24A7824D00E23535 /* week1.5重编码 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "week1.5重编码"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5270BE24A7824E00E23535 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BA5270C724A791DC00E23535 /* week1.6成绩排序 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "week1.6成绩排序"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5270C924A791DC00E23535 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BA5270D224A791EE00E23535 /* week1.7等式 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "week1.7等式"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5270D424A791EE00E23535 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BA5270DD24A791FE00E23535 /* week1.8道路升级 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "week1.8道路升级"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5270DF24A791FE00E23535 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +168,34 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BA5270B924A7824D00E23535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5270C424A791DC00E23535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5270CF24A791EE00E23535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5270DA24A791FE00E23535 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -132,6 +208,10 @@
 				BA258AB524A6103F007A9CFA /* week1.2 */,
 				BA258AC024A61047007A9CFA /* week1.3 */,
 				BA258ACB24A61052007A9CFA /* week1.4数字盒子 */,
+				BA5270BD24A7824E00E23535 /* week1.5重编码 */,
+				BA5270C824A791DC00E23535 /* week1.6成绩排序 */,
+				BA5270D324A791EE00E23535 /* week1.7等式 */,
+				BA5270DE24A791FE00E23535 /* week1.8道路升级 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -143,6 +223,10 @@
 				BA258ABF24A61047007A9CFA /* week1.3 */,
 				BA258ACA24A61052007A9CFA /* week1.4数字盒子 */,
 				BA5270A824A7461F00E23535 /* test */,
+				BA5270BC24A7824D00E23535 /* week1.5重编码 */,
+				BA5270C724A791DC00E23535 /* week1.6成绩排序 */,
+				BA5270D224A791EE00E23535 /* week1.7等式 */,
+				BA5270DD24A791FE00E23535 /* week1.8道路升级 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -191,6 +275,38 @@
 				BA5270B024A7464900E23535 /* data_type.hpp */,
 			);
 			path = test;
+			sourceTree = "<group>";
+		};
+		BA5270BD24A7824E00E23535 /* week1.5重编码 */ = {
+			isa = PBXGroup;
+			children = (
+				BA5270BE24A7824E00E23535 /* main.cpp */,
+			);
+			path = "week1.5重编码";
+			sourceTree = "<group>";
+		};
+		BA5270C824A791DC00E23535 /* week1.6成绩排序 */ = {
+			isa = PBXGroup;
+			children = (
+				BA5270C924A791DC00E23535 /* main.cpp */,
+			);
+			path = "week1.6成绩排序";
+			sourceTree = "<group>";
+		};
+		BA5270D324A791EE00E23535 /* week1.7等式 */ = {
+			isa = PBXGroup;
+			children = (
+				BA5270D424A791EE00E23535 /* main.cpp */,
+			);
+			path = "week1.7等式";
+			sourceTree = "<group>";
+		};
+		BA5270DE24A791FE00E23535 /* week1.8道路升级 */ = {
+			isa = PBXGroup;
+			children = (
+				BA5270DF24A791FE00E23535 /* main.cpp */,
+			);
+			path = "week1.8道路升级";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -281,6 +397,74 @@
 			productReference = BA5270A824A7461F00E23535 /* test */;
 			productType = "com.apple.product-type.tool";
 		};
+		BA5270BB24A7824D00E23535 /* week1.5重编码 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5270C024A7824E00E23535 /* Build configuration list for PBXNativeTarget "week1.5重编码" */;
+			buildPhases = (
+				BA5270B824A7824D00E23535 /* Sources */,
+				BA5270B924A7824D00E23535 /* Frameworks */,
+				BA5270BA24A7824D00E23535 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "week1.5重编码";
+			productName = "week1.5重编码";
+			productReference = BA5270BC24A7824D00E23535 /* week1.5重编码 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BA5270C624A791DC00E23535 /* week1.6成绩排序 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5270CB24A791DC00E23535 /* Build configuration list for PBXNativeTarget "week1.6成绩排序" */;
+			buildPhases = (
+				BA5270C324A791DC00E23535 /* Sources */,
+				BA5270C424A791DC00E23535 /* Frameworks */,
+				BA5270C524A791DC00E23535 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "week1.6成绩排序";
+			productName = "week1.6成绩排序";
+			productReference = BA5270C724A791DC00E23535 /* week1.6成绩排序 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BA5270D124A791EE00E23535 /* week1.7等式 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5270D624A791EE00E23535 /* Build configuration list for PBXNativeTarget "week1.7等式" */;
+			buildPhases = (
+				BA5270CE24A791EE00E23535 /* Sources */,
+				BA5270CF24A791EE00E23535 /* Frameworks */,
+				BA5270D024A791EE00E23535 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "week1.7等式";
+			productName = "week1.7等式";
+			productReference = BA5270D224A791EE00E23535 /* week1.7等式 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BA5270DC24A791FE00E23535 /* week1.8道路升级 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5270E124A791FE00E23535 /* Build configuration list for PBXNativeTarget "week1.8道路升级" */;
+			buildPhases = (
+				BA5270D924A791FE00E23535 /* Sources */,
+				BA5270DA24A791FE00E23535 /* Frameworks */,
+				BA5270DB24A791FE00E23535 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "week1.8道路升级";
+			productName = "week1.8道路升级";
+			productReference = BA5270DD24A791FE00E23535 /* week1.8道路升级 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -305,6 +489,18 @@
 					BA5270A724A7461F00E23535 = {
 						CreatedOnToolsVersion = 11.5;
 					};
+					BA5270BB24A7824D00E23535 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					BA5270C624A791DC00E23535 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					BA5270D124A791EE00E23535 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					BA5270DC24A791FE00E23535 = {
+						CreatedOnToolsVersion = 11.5;
+					};
 				};
 			};
 			buildConfigurationList = BA258A8024A60F8A007A9CFA /* Build configuration list for PBXProject "weeks" */;
@@ -325,6 +521,10 @@
 				BA258ABE24A61047007A9CFA /* week1.3 */,
 				BA258AC924A61052007A9CFA /* week1.4数字盒子 */,
 				BA5270A724A7461F00E23535 /* test */,
+				BA5270BB24A7824D00E23535 /* week1.5重编码 */,
+				BA5270C624A791DC00E23535 /* week1.6成绩排序 */,
+				BA5270D124A791EE00E23535 /* week1.7等式 */,
+				BA5270DC24A791FE00E23535 /* week1.8道路升级 */,
 			);
 		};
 /* End PBXProject section */
@@ -370,6 +570,38 @@
 				BA5270AB24A7461F00E23535 /* main.cpp in Sources */,
 				BA5270B124A7464900E23535 /* data_type.cpp in Sources */,
 				BA5270B424A75B8A00E23535 /* func.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5270B824A7824D00E23535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5270BF24A7824E00E23535 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5270C324A791DC00E23535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5270CA24A791DC00E23535 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5270CE24A791EE00E23535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5270D524A791EE00E23535 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5270D924A791FE00E23535 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5270E024A791FE00E23535 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -585,6 +817,86 @@
 			};
 			name = Release;
 		};
+		BA5270C124A7824E00E23535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCV2M63J4K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA5270C224A7824E00E23535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCV2M63J4K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA5270CC24A791DC00E23535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCV2M63J4K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA5270CD24A791DC00E23535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCV2M63J4K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA5270D724A791EE00E23535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCV2M63J4K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA5270D824A791EE00E23535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCV2M63J4K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA5270E224A791FE00E23535 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCV2M63J4K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA5270E324A791FE00E23535 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UCV2M63J4K;
+				ENABLE_HARDENED_RUNTIME = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -638,6 +950,42 @@
 			buildConfigurations = (
 				BA5270AC24A7461F00E23535 /* Debug */,
 				BA5270AD24A7461F00E23535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5270C024A7824E00E23535 /* Build configuration list for PBXNativeTarget "week1.5重编码" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5270C124A7824E00E23535 /* Debug */,
+				BA5270C224A7824E00E23535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5270CB24A791DC00E23535 /* Build configuration list for PBXNativeTarget "week1.6成绩排序" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5270CC24A791DC00E23535 /* Debug */,
+				BA5270CD24A791DC00E23535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5270D624A791EE00E23535 /* Build configuration list for PBXNativeTarget "week1.7等式" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5270D724A791EE00E23535 /* Debug */,
+				BA5270D824A791EE00E23535 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5270E124A791FE00E23535 /* Build configuration list for PBXNativeTarget "week1.8道路升级" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5270E224A791FE00E23535 /* Debug */,
+				BA5270E324A791FE00E23535 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
